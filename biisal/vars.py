@@ -6,16 +6,16 @@ from dotenv import load_dotenv
 
 
 load_dotenv()
-bot_name = "Bɪɪsᴀʟ Fɪʟᴇ2Lɪɴᴋ Bᴏᴛ"
+bot_name = "MAWHOrzz_file_to_Link_bot"
 bisal_channel = "https://telegram.me/moviesandwebserieshubOrzz"
 bisal_grp = "https://t.me/+Zel3zrsAs2U0MzE1"
 
 class Var(object):
     MULTI_CLIENT = False
-    API_ID = int(getenv('API_ID', ''))
-    API_HASH = str(getenv('API_HASH', ''))
-    BOT_TOKEN = str(getenv('BOT_TOKEN' , ''))
-    name = str(getenv('name', 'bisal_file2link_bot'))
+    API_ID = int(getenv('API_ID', '20763817'))
+    API_HASH = str(getenv('API_HASH', '07186e8f2ffe607e99eedf7eaa5e630b'))
+    BOT_TOKEN = str(getenv('BOT_TOKEN' , '7086885125:AAEUGLE0y1U5g5pr5lKJi6pdmZ-jpAAlaTI'))
+    name = str(getenv('name', 'MAWHOrzz_file_to_Link_bot'))
     SLEEP_THRESHOLD = int(getenv('SLEEP_THRESHOLD', '60'))
     WORKERS = int(getenv('WORKERS', '4'))
     BIN_CHANNEL = int(getenv('BIN_CHANNEL', ''))
@@ -23,10 +23,10 @@ class Var(object):
     PORT = int(getenv('PORT', '8080'))
     BIND_ADRESS = str(getenv('WEB_SERVER_BIND_ADDRESS', '0.0.0.0'))
     PING_INTERVAL = int(environ.get("PING_INTERVAL", "1200"))  # 20 minutes
-    OWNER_ID = [int(x) for x in os.environ.get("OWNER_ID", "5397984467").split()]
+    OWNER_ID = [int(x) for x in os.environ.get("OWNER_ID", "6444128136").split()]
     NO_PORT = bool(getenv('NO_PORT', False))
     APP_NAME = None
-    OWNER_USERNAME = str(getenv('OWNER_USERNAME', 'biisal'))
+    OWNER_USERNAME = str(getenv('OWNER_USERNAME', 'MAC_Cellron'))
     if 'DYNO' in environ:
         ON_HEROKU = True
         APP_NAME = str(getenv('APP_NAME')) #dont need to fill anything here
