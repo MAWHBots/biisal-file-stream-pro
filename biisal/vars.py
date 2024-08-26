@@ -14,7 +14,7 @@ class Var(object):
     MULTI_CLIENT = False
     API_ID = int(getenv('API_ID', '20763817'))
     API_HASH = str(getenv('API_HASH', '07186e8f2ffe607e99eedf7eaa5e630b'))
-    BOT_TOKEN = str(getenv('BOT_TOKEN' , '7086885125:AAEUGLE0y1U5g5pr5lKJi6pdmZ-jpAAlaTI'))
+    BOT_TOKEN = str(getenv('BOT_TOKEN' , '7214295745:AAFUgvaaiTmG2fza1qYdH2Vy1v5YyvHXUfE'))
     name = str(getenv('name', 'MAWHOrzz_file_to_Link_bot'))
     SLEEP_THRESHOLD = int(getenv('SLEEP_THRESHOLD', '60'))
     WORKERS = int(getenv('WORKERS', '4'))
@@ -39,7 +39,7 @@ class Var(object):
         URL = "https://{}/".format(FQDN)
     else:
         URL = "http://{}/".format(FQDN)
-    DATABASE_URL = str(getenv('DATABASE_URL', ''))
+    DATABASE_URL = str(getenv('DATABASE_URL', 'mongodb+srv://jacksparrow0982com:0fG8YhlJ1aVGANiC@cluster0.yzbfamz.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0'))
     UPDATES_CHANNEL = str(getenv('UPDATES_CHANNEL', 'moviesandwebserieshubOrzz')) 
     BANNED_CHANNELS = list(set(int(x) for x in str(getenv("BANNED_CHANNELS", "")).split()))   
     BAN_CHNL = list(set(int(x) for x in str(getenv("BAN_CHNL", "")).split()))   
